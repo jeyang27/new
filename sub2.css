@@ -38,12 +38,9 @@
     z-index: 60;
     font-size: 150px;
     transition: all, 2s;
-    /* font-family: 'Bebas Neue', cursive; */
-    /* font-family: 'Caveat', cursive; */
-    /* font-family: 'Crimson Text', serif; */
-    /* font-family: 'Pacifico', cursive; */
+
     font-family: 'Staatliches', cursive;
-    /* border: 5px solid blue; */
+ 
 }
 .main:hover h1{
     color: rgba(0, 0, 0, 0.9);
