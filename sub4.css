@@ -1,0 +1,368 @@
+ *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+/* font-family: 'ZCOOL KuaiLe', cursive;
+font-family: 'ZCOOL XiaoWei', serif;
+font-family: 'Zhi Mang Xing', cursive; */
+nav{
+    /* border: 3px solid greenyellow; */
+    width: 100%;
+    height: 60px;
+    /* text-align: center; */
+    position: fixed;
+    z-index: 999;
+    background-color: rgb(255, 255, 255);
+    
+}
+nav img{
+    width: 90px;
+
+    /* border: 3px solid red; */
+    margin-left: 20px;
+
+}
+nav ul{
+    float: right;
+    /* border: 3px solid red; */
+    margin-top: 18px;
+}
+
+nav ul li{
+    float: left;
+    margin-right: 30px;
+    /* border: 3px solid red; */
+    font-family: 'Ma Shan Zheng', cursive;
+}
+nav ul li a{
+    color: black;
+    font-size: 20px;
+}
+.s1{
+    width: 100%;
+    height: 500px;
+    /* border: 4px solid red; */
+    position: relative;
+    overflow: hidden;
+}
+.s1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    margin-top: 50px;
+    
+} 
+.s1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.s1 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    font-size: 50px;
+    color: white;
+    /* border-left: 2px solid red; */
+    text-shadow: 1px 1px 10px black;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+.s2{
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid royalblue; */
+    height: 1630px;
+}
+/* 동영상영역끝 */
+.s3{
+    width: 800px;
+    margin: 0 auto;
+    height: 250px;
+    text-align: center;
+    /* border: 3px solid violet; */
+    
+}
+.s3 h1{
+    /* border: 3px solid red; */
+    font-size: 50px;
+    padding-top: 50px;
+    font-family: 'Ma Shan Zheng', cursive;
+    text-shadow: 1px 1px 5px gray;
+
+}
+.s3 h3{
+    /* border: 3px solid blue; */
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+.s3 p{
+    /* border: 3px solid green; */
+    font-family: 'Ma Shan Zheng', cursive;
+    margin-top: 35px;
+    font-size: 30px;
+
+}
+/* 소개부분끝 */
+.s4{
+    width: 100%;
+    height: 430px;
+    /* border: 2px solid sienna; */
+    position: relative;
+}
+.s4_1{
+    width: 250px;
+    height: 350px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+.s4_1 img{
+    width: 100%;
+    height: 80%;
+    box-shadow: 2px 2px 2px 3px black;
+    cursor: pointer;
+
+}
+.s4_1 h2{
+    text-align: center;
+    /* border: 2px solid slateblue; */
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+.s4_2{
+    width: 250px;
+    height: 350px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 60px;
+    left: 460px;
+}
+.s4_2 img{
+    width: 100%;
+    height: 80%;
+    box-shadow: 2px 2px 2px 3px black;
+    cursor: pointer;
+
+}
+.s4_2 h2{
+    text-align: center;
+    /* border: 2px solid slateblue; */
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+.s4_3{
+    width: 250px;
+    height: 350px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 60px;
+    left: 820px;
+}
+.s4_3 img{
+    width: 100%;
+    height: 80%;
+    box-shadow: 2px 2px 2px 3px black;
+    cursor: pointer;
+
+}
+.s4_3 h2{
+    text-align: center;
+    /* border: 2px solid slateblue; */
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+.s5{
+    width: 100%;
+    height: 900px;
+    /* border: 2px solid red; */
+    position: relative;
+    overflow: hidden;
+  
+}
+
+.s5 img:nth-child(1){
+ width: 40%;
+ height: 900px;
+ float: left;
+ transition: all 2s;
+ filter: grayscale(100%);
+
+
+
+}
+.s5 img:nth-child(1):hover{
+    filter: grayscale(0%);
+
+}
+.s5 video{
+    width: 40%;
+    height: 400px;
+    float: left;
+    object-fit: fill;
+    transition: all 2s;
+    filter: grayscale(100%);
+
+
+   
+}
+.s5 video:hover{
+    filter: grayscale(0%);
+ 
+}
+
+.clear{
+    clear: both;
+}
+.s5 img:nth-child(4){
+    width: 40%;
+    height: 500px;
+    float: left;
+    /* border: 2px solid red; */
+    float: left;
+    transition: all 2s;
+    filter: grayscale(100%);
+   
+}
+.s5 img:nth-child(4):hover{
+    filter: grayscale(0%);
+
+}
+
+
+.s5 h1{
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    float: right;
+    text-align: left;
+    font-size: 80px;
+    padding-top: 200px;
+    font-family: 'Zhi Mang Xing', cursive; 
+   text-shadow: 0px 0px 2px black;
+   
+
+
+
+}
+/* footer영역 */
+footer{
+    width: 100%;
+    height: 400px;
+    padding-top: 20px;
+    /* border: 2px solid seagreen; */
+   
+    /* background: url("../je/sub4/y1.jpg");
+    background-size: 100% 100%;
+   */ 
+   background-color: black;
+} 
+/* footer img{
+    width: 150px;
+    height: 60px;
+    margin-left: 44%;
+} */
+
+footer h1{
+    /* font-family: 'Zhi Mang Xing', cursive;  */
+    color: white;
+    margin-left: 45%;
+    margin-top: 20px;
+    font-size: 60px;
+    text-shadow: 1px 1px 5px black;
+    /* font-family: 'ZCOOL KuaiLe', cursive; */
+/* font-family: 'ZCOOL XiaoWei', serif; */
+font-family: 'Zhi Mang Xing', cursive; 
+
+}
+.f3{
+    width: 1300px;
+    height: 250px;
+    /* border: 2px solid orange; */
+    margin: 0 auto;
+} 
+.f4{
+    width: 40%;
+    height: 250px;
+    /* border: 2px solid red; */
+    float: left;
+    text-align: center;
+}
+.f1{
+    width: 20%;
+    height: 230px;
+    text-align: left;
+    /* border: 2px solid orange; */
+    float: left;
+    padding-top: 40px;
+    padding-left: 30px;
+   
+    
+}
+
+.f2{
+    width: 30%;
+    height: 200px;
+    float: right; 
+    padding-top: 40px;
+    /* border: 2px solid orange; */
+    text-align: left;
+    
+}
+.f4 .v1{
+    width: 45%;
+    height: 35px;
+    margin-top: 90px;
+}
+.f4 .v2{
+    width: 20px;
+    height: 20px;
+   margin-left: -30px;
+
+}
+.f4 .n1{
+width: 30px;
+height: 30px;
+/* border: 2px solid rosybrown; */
+font-size: 30px;
+color: white;
+margin-right: 20px;
+}
+
+
+
+ .f1 a{
+    color: white;
+    /* border: 1px solid red;  */
+    margin-bottom: 5px;
+    font-size: 20px;
+    display: block;
+    float: left;
+    /* font-family: 'ZCOOL KuaiLe', cursive; */
+    font-family: 'ZCOOL XiaoWei', serif;
+    /* font-family: 'Zhi Mang Xing', cursive; */
+    
+    
+}
+
+
+
+ .f2 p{
+    color: white;
+    font-size:20px;
+    margin-bottom: 20px;
+    font-family: 'ZCOOL XiaoWei', serif;
+     
+
+} 

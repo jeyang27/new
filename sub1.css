@@ -1,0 +1,285 @@
+ *{
+margin: 0;
+padding: 0;
+text-decoration: none;
+
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    /* border: 3px solid red; */
+    background-color: #000;
+    min-height: 700px;
+   
+    overflow: hidden;
+}
+.d1{
+  /* border: 3px solid black;  */
+  width: 22%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+
+}
+.d2{
+  /* border: 3px solid black;  */
+  width: 35%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+.d3{
+  /* border: 3px solid black;  */
+  width: 22%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+.d4{
+  /* border: 5px solid green;  */
+  width: 20%;
+  height: 100%;
+ float: right;
+ text-align: center;
+}
+
+
+
+/* d1영역 */
+.d1_1{
+    width: 100%;
+    height: 50%;
+    /* border: 3px solid blue; */
+  
+}
+
+.p1{
+  width: 100%;
+  height: 100%;
+}
+.d1_2{
+  width: 100%;
+  height: 50%;
+  /* border: 3px solid blue; */
+
+}
+.p1_1{
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+
+.d1_1:hover{
+
+    filter: grayscale(0%);
+  
+  transition: .5s ease-in-out;
+  
+
+  
+} 
+.d1_1{
+  
+    filter: grayscale(100%); 
+  
+    transition: .5s ease-in-out;
+  
+}
+
+.d1_2:hover {
+
+  filter: grayscale(0%);
+
+  transition: .5s ease-in-out;
+
+ 
+} 
+.d1_2{
+
+  filter: grayscale(100%); 
+
+ transition: .5s ease-in-out;
+
+ 
+}
+/* d2영역 */
+.p2{
+    width: 100%;
+    height:100%;
+    /* border: 3px solid blue; */
+}
+
+.p2:hover {
+
+ filter: grayscale(0%);
+
+ transition: .5s ease-in-out;
+
+ 
+} 
+
+.p2{
+
+ filter: grayscale(100%); 
+
+ transition: .5s ease-in-out;
+
+ 
+}
+/* d3영역 */
+.d3_1{
+  /* border: 6px solid red; */
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 25%;
+  width: 100%;
+}
+.d3_2{
+  /* border: 5px solid red; */
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 25%;
+  width: 100%;
+}
+.d3_3{
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  overflow: hidden;
+  height:50%;
+  
+}
+
+
+.p3{
+
+ filter: grayscale(100%); 
+ transition: .5s ease-in-out;
+ width: 100%;
+ height: 100%;
+ vertical-align:top;
+ transition: all,1s ;
+ overflow: hidden;
+ box-sizing: border-box;
+}
+.p4{
+  /* border: 3px solid blue; */
+  width: 100%;
+  vertical-align:top;
+  transition: all,1s ;
+  overflow: hidden;
+  box-sizing: border-box;
+  filter: grayscale(100%); 
+ transition: .5s ease-in-out;
+ height: 100%;
+}
+.p5{
+  /* border: 3px solid blue; */
+  width: 100%;
+
+  vertical-align:top;
+  transition: all,1s ;
+ overflow: hidden;
+ box-sizing: border-box;
+ 
+ filter: grayscale(100%); 
+
+ transition: .5s ease-in-out;
+ height: 100%;
+
+}
+
+.p3:hover{
+
+filter: grayscale(0%);
+
+ transition: .5s ease-in-out;
+
+
+ transform: scale(1.1);
+} 
+
+.p4:hover {
+
+  filter: grayscale(0%);
+
+  transition: .5s ease-in-out;
+  transform: scale(1.1);
+  
+
+} 
+
+.p5:hover {
+
+  filter: grayscale(0%);
+
+  transition: .5s ease-in-out;
+  transform: scale(1.1);
+}
+/* d4영역 */
+.d4 .a1{
+
+  width:100%;
+  /* border: 4px solid red; */
+  margin-top: 70%;
+  font-size: 40px;
+  color: yellow;
+  display: block;
+  /* font-family: 'Cinzel', serif; */
+   font-family: 'Fredericka the Great', cursive;
+}
+.d4_1 a{
+display: block;
+color: white;
+font-size: 16px;
+font-weight: bold;
+margin-bottom: 10px;
+font-family: 'Cinzel', serif;
+/* font-family: 'Fredericka the Great', cursive; */
+/* font-family: 'Nanum Myeongjo', serif; */
+}
+.d4_1{
+  margin-top: 20%;
+  width: 100%;
+
+}
+form {
+  margin-top: 20%;
+  position: relative;
+  /* border: 3px solid rebeccapurple; */
+
+}
+form .a2{
+width: 70%;
+height: 30px;
+text-align: center;
+}
+form .a3{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 50px;
+  top: 5px;
+
+}
+input::placeholder{
+  color: #000;
+  
+}
+.d4_1 a:hover{
+  color: rgb(227, 255, 174);
+}
+
+
+
+
+
+
+
+
+
+
+
+  
