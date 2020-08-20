@@ -16,15 +16,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
   <script>
   $(function(){
-
-  
        $('.counter').counterUp({
                         delay: 15,
                         time: 1000
             });
 
-    var nav = $(".nav > li");
-    var cont = $("#contents > div");
+    var nav = $(".nav>li");
+    var cont = $("#contents>div");
     
     nav.click(function(){
       var target = $(this);
@@ -43,12 +41,7 @@
                 var offset1 = $("#section1").offset().top;
                 var offset2 = $("#section2").offset().top;
                 var wscroll = $(this).scrollTop();
-
-                
-            });
-
-    // 포토 일러 페이지
-
+     });
  });
   </script>
 </head>
