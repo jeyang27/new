@@ -14,10 +14,10 @@
 	<script>
 		
        $(function(){
-       $(".counter").counterUp({
-                        delay: 15,
-                        time: 1000
-            });
+//        $(".counter").counterUp({
+//                         delay: 15,
+//                         time: 1000
+//             });
 
     var nav = $(".nav > li");
     var cont = $("#contents > div");
@@ -25,11 +25,9 @@
     nav.click(function(){
       var target = $(this);
       var i = target.index();
-      //alert(i);
       
       var section = cont.eq(i);
       var offset = section.offset().top;
-      //alert(offset);
       
       $("html, body").animate({scrollTop:offset},400);
       
@@ -40,9 +38,6 @@
                 var offset2 = $("#section2").offset().top;
                 var wscroll = $(this).scrollTop();
 	 });
-
-    // 포토 일러 페이지
-
  });
 
 	</script>
