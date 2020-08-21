@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
     <script src="jquery-3.5.1.min.js"></script>
-    <script src="jquery.counterup.min.js"></script>
     <script src="jquery-migrate-1.4.1.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
    
@@ -34,8 +34,6 @@
 			var offset2 = $("#section2").offset().top;
 			var wscroll = $(this).scrollTop();
 	   });
-	       
-	   $(".counter").counterUp({ delay: 15, time: 1000 });
  });
 
 	</script>
@@ -262,4 +260,9 @@
     </div>
     </div>
 </body>
+<script>
+	$(document).ready(function(){
+		$(".counter").counterUp({ delay: 15, time: 1000 });
+	});
+</script>
 </html>
