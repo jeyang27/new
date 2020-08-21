@@ -14,30 +14,25 @@
 	<script>
 		
        $(function(){
-//        $(".counter").counterUp({
-//                         delay: 15,
-//                         time: 1000
-//             });
-
-    var nav = $(".nav > li");
-    var cont = $("#contents > div");
+	    var nav = $(".nav > li");
+    	    var cont = $("#contents > div");
     
-    nav.click(function(){
-      var target = $(this);
-      var i = target.index();
+            nav.click(function(){
+     		 var target = $(this);
+     		 var i = target.index();
       
-      var section = cont.eq(i);
-      var offset = section.offset().top;
+      		var section = cont.eq(i);
+      		var offset = section.offset().top;
       
-      $("html, body").animate({scrollTop:offset},400);
-      
-    });
+      		$("html, body").animate({scrollTop:offset},400);
+           });
 
-    $(window).scroll(function() {
-                var offset1 = $("#section1").offset().top;
-                var offset2 = $("#section2").offset().top;
-                var wscroll = $(this).scrollTop();
-	 });
+	   $(window).scroll(function() {
+			var offset1 = $("#section1").offset().top;
+			var offset2 = $("#section2").offset().top;
+			var wscroll = $(this).scrollTop();
+	   });
+	   $(".counter").counterUp({ delay: 15, time: 1000 });
  });
 
 	</script>
@@ -246,12 +241,8 @@
               <div class="sub6_1">
                 <h2>#Location</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102295.97434668896!2d127.0038596523001!3d36.752590676142404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ad9707d295b2b%3A0xaed278833edafaad!2z7Lap7LKt64Ko64-EIOyVhOyCsOyLnCDrsLDrsKnsnY0!5e0!3m2!1sko!2skr!4v1597890346384!5m2!1sko!2skr" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
-
-
               </div>
               <div class="sub6_2">
-                
                 <form action="https://formspree.io/xwkrjojq" method="POST">
                   <h3>NAME</h3>
                   <input type="text" placeholder="이름또는 회사명" name="name"><br>
@@ -260,56 +251,12 @@
                   <h3>MASSAGE</h3>
                   <textarea name="message" placeholder="메세지 내용"></textarea><br>
                   <input type="submit" value="전송하기">
-                  
-
-
                 </form>
-
-
               </div>
-
-
-
-
-
-
-              
-
-
             </div>
-
             </div>
           </div>
-
-   
-
-
-
-
-
-
     </div>
-    
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
 </body>
 </html>
